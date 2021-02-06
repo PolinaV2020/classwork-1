@@ -1,0 +1,106 @@
+.wrap {
+  position: relative;
+  margin: 0 auto;
+  height: 1000px;
+  width: 1000px;
+}
+
+/* Styles for circles */
+
+.circle {
+  height: 35%;
+  width: 35%;
+  border-radius: 50%;
+  background-color: #ee220c;
+}
+
+
+.circle--left-top {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+
+.circle--right-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+.circle--right-bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+.circle--left-bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+/* Styles for squares */
+ 
+
+.square {
+  position: absolute;
+}
+
+
+.square--blue {
+  top: 15%;
+  left: 15%;
+  height: 70%;
+  width: 70%;
+  background-color: #00a2ff;
+}
+
+
+.square--yellow {
+  top: 30%;
+  left: 30%;
+  height: 40%;
+  width: 40%;
+  border-radius: 20%;
+  background-color: #f8ba00;
+}
+
+
+/* Styles for hover*/
+
+.square--blue:hover {
+  background-color: #B13FE7;
+  z-index: 15;
+}
+
+.circle--right-bottom:hover {
+  background-color: #3E43BD;
+  z-index: 5;
+}
+
+
+.circle--left-bottom:hover {
+  background-color: #3EBD78;
+  z-index: 5;
+}
+
+
+.circle--left-top:hover {
+  background-color: #BD3E83;
+  z-index: 5;
+}
+
+
+.circle--right-top:hover {
+  background-color: #D5CE59;
+  z-index: 5;
+}
+
+
+
+
+
+
